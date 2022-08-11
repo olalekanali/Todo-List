@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: yellow;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+
+/*html, body {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.container {
+    width: 360px;
+}
+*/
+
+#inputField {
+    width: 350px;
+    height: 50px;
+    border: 1px solid black;
+    outline: none;
+    font-size: 25px;
+    vertical-align: middle;
+}
+
+#addTodo {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    outline: none;
+    font-size: 50px;
+    vertical-align: middle;
+}
+
+.to-dos {
+    margin-top: 25px;
+}
+
+.paragraph-styling {
+    margin: 0;
+    cursor: pointer;
+    font-size: 40px;
+    width: 400px;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 40px;
+    }
+    #inputField {
+        width: 150px;
+        height: 20px;
+        border: 1px solid black;
+        outline: none;
+        font-size: 12px;
+        vertical-align: middle;
+    }
+    #addTodo {
+        width: 20px;
+        height: 20px;
+        border: 1px solid black;
+        outline: none;
+        font-size: 15px;
+        vertical-align: middle;
+    }
+    .paragraph-styling {
+        margin: 0;
+        cursor: pointer;
+        font-size: 20px;
+        width: 170px;
+}
